@@ -1,0 +1,36 @@
+            - name: Ultralytics Actions
+  # You may pin to the exact commit or the version.
+  # uses: ultralytics/actions@6a33e38738aba260397fc4d1366fb0f9d61161a1
+  uses: ultralytics/actions@v0.0.23
+  with:
+    # GitHub token
+    token: 
+    # Run issue and PR auto-labeling
+    labels: # optional, default is false
+    # Run Python formatting
+    python: # optional, default is false
+    # Run Markdown formatting (deprecated in favor of prettier)
+    markdown: # optional, default is false
+    # Run Prettier formatting for JavaScript, JSX, Angular, Vue, Flow, TypeScript, CSS, HTML, JSON, GraphQL, Markdown, YAML
+    prettier: # optional, default is false
+    # Run Swift formatting
+    swift: # optional, default is false
+    # Run Spelling checks
+    spelling: # optional, default is false
+    # Run Broken Links checks
+    links: # optional, default is false
+    # Run PR Summary
+    summary: # optional, default is false
+    # OpenAI API Key
+    openai_api_key: # optional
+    # OpenAI Model
+    openai_model: # optional, default is gpt-4o-2024-11-20
+    # Example response to a new issue
+    first_issue_response: # optional
+    # Example response to a new PR
+    first_pr_response: # optional
+    # GitHub username for commits
+    github_username: # optional, default is UltralyticsAssistant
+    # GitHub email for commits
+    github_email: # optional, default is web@ultralytics.com
+          
