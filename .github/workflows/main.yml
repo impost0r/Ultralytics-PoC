@@ -1,7 +1,7 @@
             - name: Ultralytics Actions
   # You may pin to the exact commit or the version.
   # uses: ultralytics/actions@6a33e38738aba260397fc4d1366fb0f9d61161a1
-  uses: ultralytics/actions@v0.0.23
+  uses: ultralytics/actions@v0.0.2
   with:
     # GitHub token
     token: 
